@@ -1,0 +1,45 @@
+                                          +---------------------------+
+                                          |           Bâtiment        |
+                                          +---------------------------+
+                                          | - String adresse          |
+                                          | - static int              |
+                                          | nombreTotalDeBatiments    |
+                                          +---------------------------+
+                                          | + Bâtiment()              |
+                                          | + Bâtiment(String adresse)|
+                                          | + String getAdresse()     |
+                                          | + void setAdresse         |
+                                          | (String adresse)          |
+                                          | + String toString()       |
+                                          | + String                  |
+                                          | afficherInformation()     |
+                                          | + static int              |
+                                          |getNombreTotalDeBatiments()|
+                                          +---------------------------+
+
+
+                                          +---------------------------+
+                                          |         Habitable         |
+                                          +---------------------------+
+                                          | + void occuper            |
+                                          | (int nombreDePersonnes)   |
+                                          +---------------------------+
+
+
+                                          +---------------------------+
+                                          |          Maison           |
+                                          +---------------------------+
+                                          | - int nbPieces            |
+                                          +---------------------------+
+                                          | + Maison()                |
+                                          | + Maison(String adresse,  |
+                                          | int nbPieces)             |
+                                          | + int getNbPieces()       |
+                                          | + void setNbPieces        |
+                                          | (int nbPieces)            |
+                                          | + String toString()       |
+                                          | + String                  |
+                                          | afficherInformation()     |
+                                          | + void occuper            |
+                                          | (int nombreDePersonnes)   |
+                                          +---------------------------+
